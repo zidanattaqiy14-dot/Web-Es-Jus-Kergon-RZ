@@ -1,0 +1,115 @@
+* {
+    text-decoration: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.li {
+    list-style: none;
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.li:hover {
+    border-bottom: 3px solid black;
+    transition: all 0.3s ease;
+}
+.code{
+    text-align: center;
+    display: flex;
+    align-items: center;
+	width: 1000px;
+}
+.menu1{
+    width: 420px;
+    padding: 10px;
+	
+}
+.rtu{
+    text-align: center;
+    background: gold;
+	width: 400px;
+	height:420px ;
+	border-radius: 10px;
+} 
+.img{
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+
+}
+.pol{
+	background-color: white;
+	width:30px ;
+	height:20px ;
+	
+}
+.pok{
+	border-radius: 50px;
+    border-color: black;
+	background-color: white;
+	width:30px ;
+	height:10px ;
+	
+}
+.p{
+	background: rgb(232, 233, 230);
+	width: 500px;
+	height:20px ;
+	float: left;
+	
+	
+
+}
+.l{
+	background: rgb(232, 21, 21);
+	width: 100px;
+	height:30px ;
+}
+
+.h{
+    color: white;
+}
